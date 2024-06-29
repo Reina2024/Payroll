@@ -10,20 +10,18 @@ const collectEmployees = function () {
   let repeat = true;
   while (repeat) {
     // const repeat = confirm("Do you wish to add an employee?")
-    
-      const firstName = window.prompt(
-        "please Enter the Employee's First Name"
-      );
-      const lastName = window.prompt("please enter the employees last name");
-      let salary = window.prompt("Please enter the employee's salary");
 
-      // employee object
-      const employee = {
-        firstName: firstName,
-        lastName: lastName,
-        salary:parseFloat(salary)
-      };
-    
+    const firstName = window.prompt("please Enter the Employee's First Name");
+    const lastName = window.prompt("please enter the employees last name");
+    let salary = window.prompt("Please enter the employee's salary");
+
+    // employee object
+    const employee = {
+      firstName: firstName,
+      lastName: lastName,
+      salary: parseFloat(salary),
+    };
+
     // push employees to employeesArray
     employeesArray.push(employee);
 
@@ -39,12 +37,12 @@ console.log(employeesArray);
 const displayAverageSalary = function (employeesArray) {
   //Calculate and display the average salary
   let avTotal = 0;
-  const numberEmployee =employeesArray.length;
+  const numberEmployee = employeesArray.length;
   for (const employee of employeesArray) {
-    avTotal += employee.salary; 
+    avTotal += employee.salary;
   }
   console.log(avTotal);
-  console.log (numberEmployee);
+  console.log(numberEmployee);
   // [0 ,50,60,70,80,90]
   // let avTotal = 0 not (50+60+70+80)
 
@@ -53,15 +51,15 @@ const displayAverageSalary = function (employeesArray) {
 };
 
 // Select a random employee
-const getRandomEmployee = function (employeesArray) 
-{
-  const getRandomEmployee = function(employeesArray) 
-   
-    {const randomEmployee = employeesArray[Math.floor(Math.random()*employeesArray.length)];
 
-    console.log(`Winner! Winner!${randomEmployee.firstName} ${randomEmployee.lastName}, is our random drawing winner!`)
-    };
-  }
+const getRandomEmployee = function (employeesArray) {
+  const randomEmployee =
+    employeesArray[Math.floor(Math.random() * employeesArray.length)];
+
+  console.log(
+    `Winner! Winner!${randomEmployee.firstName} ${randomEmployee.lastName}, is our random drawing winner!`
+  );
+};
 /*
   ====================
   STARTER CODE
