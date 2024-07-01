@@ -2,9 +2,13 @@
 My third challenge: To modify starter code to create a responsive employee payroll tracker. This app will be a browser app and willhave updated HTML and CSS powered by JavaScript code that I have written using starter code and peer . 
 # Screenshot
 Here is a screen cap of my project:
-
+![Alt text](./assets/images/Screenshot%202024-07-01%20at%203.07.41 PM.png "Payroll Screen Cap")
+![Alt text](./assets/images/Screenshot%202024-07-01%20at%203.07.51 PM.png" Portfolio Screen Cap")
+![Alt text](./assets/images/Screenshot%202024-07-01%20at%203.08.44 PM.png "Portfolio Screen Cap")
 
 # Links
+https://github.com/Reina2024/Payroll
 
+https://reina2024.github.io/Payroll/
 
 
