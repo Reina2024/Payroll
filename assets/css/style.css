@@ -1,3 +1,4 @@
+/* Universal Selector */
 *,
 *::before,
 *::after {
@@ -16,13 +17,13 @@ body {
   font-family: sans-serif;
   background-color: #f9fbfd;
 }
-
+/* A wrapper instead  of container :is something that wraps around a single object to provide more functionalities and interfaces to it. */
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
 }
-
+/* header styles */
 header {
   text-align: center;
   padding: 20px;
@@ -33,7 +34,7 @@ header {
 h2 {
   text-align: center;
 }
-
+/* style cards */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -57,7 +58,7 @@ h2 {
 .card-body {
   min-height: 100px;
 }
-
+/* Style the Employee Pay Table */
 table {
   width:100%;
   border-spacing: 0;
@@ -72,7 +73,7 @@ td{
 tbody tr:nth-child(even) {
   background-color: hsl(223, 64%, 90%);
 }
-
+/* footer */
 .card-footer {
   text-align: center;
 }
@@ -90,7 +91,7 @@ tbody tr:nth-child(even) {
   display: block;
   clear: both;
 }
-
+/* Button styles */
 .btn {
   border: none;
   background-color: hsl(223, 74%, 48%);
@@ -115,7 +116,7 @@ button[disabled] {
   float: right;
 }
 
-
+/* Media Querry */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
